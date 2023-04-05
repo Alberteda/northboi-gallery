@@ -1,0 +1,32 @@
+body {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-image: 
+        url(../images/barhaven-bridge.jpg), 
+        url(../images/westboro-beach.jpg);
+    /* width: 50vw;
+    height: 50vh; */
+}
+
+.background-image-1 {
+    width: 85.3em;
+    height: 48em;
+    background-color: aqua;
+}
+
+.barhaven-bridge {
+    object-fit: contain;
+    height: 100%;
+}
+
+.background-image-2 {
+    width: 85.3em;
+    height: 48em;
+    background-color: aqua;
+}
+
+.westboro-beach {
+    object-fit: contain;
+    width: 100%;
+}
