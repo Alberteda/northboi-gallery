@@ -34,15 +34,3 @@ body {
     height: 1em;
     background-color: white
 }
-
-.main-container {
-    margin: 0 auto;
-    background-image: url(../images/westboro-beach.jpg);
-    background-size: contain;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    column-gap: 1em;
-    row-gap: 1em;
-    padding: 4em 1em;
-}
