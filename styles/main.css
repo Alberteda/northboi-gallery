@@ -31,9 +31,9 @@ body {
 }
 
 .top-divider {
-    height: 0.5em;
-    background-color: #593c2b;
-    background-image: linear-gradient(62deg, #593c2b 33%, #F7CE68 59%, #593c2b 81%);
+    margin-top: 0.5em;
+    height: 1em;
     border-style: none;
+    background: linear-gradient(90deg, #2B2B2B 100%, #9E9E9E 50%);
     
 }
