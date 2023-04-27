@@ -9,10 +9,30 @@ body {
 .nav-bar {
     background-color: #6a5722;
     background-image: linear-gradient(62deg, #6a5722 18%, #FBAB7E 40%, #2da2d4 48%, #ac9c9c 66%, #736262 77%);
+    padding: 0.5em 0;
+    filter: brightness(80%);
 }
 
-img {
-    object-fit: contain;
+.label-logo-nav-bar-container {
+ width: 200px;
+ height: 100px;
+ margin-left: 8em;
+ align-items: center;
+}
+
+.label-logo-1 {
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.nav-title {
+    padding: 1em;
+    margin-top: -2em;
+}
+
+.top-divider {
+    height: 1em;
+    background-color: white
 }
 
 .main-container {
