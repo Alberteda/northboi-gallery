@@ -31,16 +31,43 @@ body {
 }
 
 .top-divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     margin-top: 0.5em;
     background: linear-gradient(90deg, #2B2B2B 100%, #9E9E9E 50%);
     height: 100%;
-    padding: 1em;
+    padding: 1em 2em 1em 1em;
     border-style: dotted;
     border-color: #ac9c9c;
     border-width: 1px;
 }
+.top-divider-paragraph {
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
 
 .enter-button {
-    width: 20%;
-    height: 100%;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+    padding: auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.enter-button:hover {
+background-position: right center;
+color: #fff;
+text-decoration: none;
 }
