@@ -32,7 +32,6 @@ body {
 
 .top-divider {
     margin-top: 0.5em;
-    /* height: 1em; */
     background: linear-gradient(90deg, #2B2B2B 100%, #9E9E9E 50%);
     height: 100%;
     padding: 1em;
