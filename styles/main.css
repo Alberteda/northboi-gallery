@@ -35,5 +35,6 @@ body {
     height: 1em;
     border-style: none;
     background: linear-gradient(90deg, #2B2B2B 100%, #9E9E9E 50%);
-    
+    height: 100%;
+    padding: 1em;
 }
