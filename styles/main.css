@@ -6,7 +6,7 @@ body {
     color: white;
 }
 
-.nav-bar {
+.header-section {
     background-color: #6a5722;
     background-image: linear-gradient(62deg, #6a5722 18%, #FBAB7E 40%, #2da2d4 48%, #ac9c9c 66%, #736262 77%);
     padding: 2em 8em;
@@ -32,9 +32,16 @@ body {
 
 .top-divider {
     margin-top: 0.5em;
-    height: 1em;
-    border-style: none;
+    /* height: 1em; */
     background: linear-gradient(90deg, #2B2B2B 100%, #9E9E9E 50%);
     height: 100%;
     padding: 1em;
+    border-style: dotted;
+    border-color: #ac9c9c;
+    border-width: 1px;
+}
+
+.enter-button {
+    width: 20%;
+    height: 100%;
 }
