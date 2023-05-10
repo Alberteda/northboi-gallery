@@ -55,9 +55,9 @@ body {
 }
 
 .enter-button:hover {
-background-position: right center;
-color: #fff;
-text-decoration: none;
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
 }
 
 .image-container {
