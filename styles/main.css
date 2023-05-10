@@ -65,5 +65,24 @@ text-decoration: none;
 }
 
 .main-image-container {
-    
+    width: 100%;
+    display: flex;
+    padding: 1em;
+}
+
+.image-wrapper-1 {
+    width: 100%;
+    display: flex;
+}
+
+.church-image {
+    width: 720px;
+    height: 480px;
+}
+
+.church-image-description{
+    width: 200px;
+    height: 30%;
+    align-self: flex-end;
+    margin: 0 0 0 1em;
 }
